@@ -1,26 +1,40 @@
 {
-   "token": "Bot Token",
+   "token" : "OTY0MjMzODczMjA4Nzk1MjI2.YlhqxQ.GQxxXqNwUtXgqnBhSV87nlVGoKo",
    "prefix": "?",
    "ownerIDS": [
-      "442355791412854784"
+      "293425327231729664"
    ],
    "status": {
-      "text": "{prefix}help | played {songsplayed} Songs on {guildcount} Guilds | Support: discord.gg/milrato",
-      "text2": "By: milrato.dev",
-      "type": "PLAYING",
-      "url": "https://twitch.tv/#"
+      "text": "{prefix}help | played {songsplayed} Songs on {guildcount} Guilds | Support: https://discord.gg/a5MFjmCgvC",
+      "text2": "By: inffbl.dev",
+      "type": "STREAMING",
+      "url": "https://twitch.tv/inffbl"
    },
    "clientsettings": {
       "nodes": [
          {
-            "host": "localhost",
-            "port": 2333,
-            "password": "youshallnotpass"
+            "host": "zonalink.inffbl.repl.co",
+            "port": 443,
+            "password": "zonalink",
+            "secure": true
          }
       ]
    },
    "spotify": {
-      "clientID": "",
-      "clientSecret": ""
+      "clientSecret": "26b6b4bce1684be08490158d9b93a0f7",
+      "clientID": "e3f0b8dcca2046788a364df08e7d6b28"
+   },
+   "settings": {
+      "COMMENT": "time_delay 0 === insta leave",
+      "leaveOnEmpty_Channel": {
+         "enabled": false,
+         "time_delay": 60000
+      },
+      "LeaveOnEmpty_Queue": {
+         "enabled": false,
+         "time_delay": 10000
+      },
+      "selfDeaf": true
    }
-}
+
+}  
